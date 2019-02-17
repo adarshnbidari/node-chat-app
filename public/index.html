@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>chat-app</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<p>welcome to chat-app</p>
+
+<ol id="messages"></ol>
+
+<form id="message-form" autocomplete="off">
+<input name="message" type="text" placeholder="enter the message" required /><br>
+<button type="submit">Send</button>
+</form>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
